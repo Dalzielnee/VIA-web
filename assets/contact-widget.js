@@ -2,10 +2,10 @@
   'use strict';
 
   var CONFIG = {
-    messenger : '#',             // link Messenger page — điền sau
-    zalo      : '#',             // link Zalo OA hoặc số — điền sau
-    phone     : '#',             // số điện thoại — điền sau
-    email     : '#'              // địa chỉ email — điền sau
+    messenger : '#',
+    zalo      : '#',
+    phone     : '#',
+    email     : '#'
   };
 
   /* ── SVG icons ── */
