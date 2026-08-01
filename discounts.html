@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Discounts — Lingoinn</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;600;700&family=Noto+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="index.html"><span class="mark">浸</span> Lingoinn</a>
+    <nav class="nav-links">
+      <a href="index.html" data-i18n="nav.programme">Programme</a>
+      <a href="upgrades.html" data-i18n="nav.upgrades">Upgrades</a>
+      <a href="discounts.html" data-i18n="nav.discounts">Discounts</a>
+      <a href="stories.html" data-i18n="nav.stories">Stories</a>
+      <a href="team.html" data-i18n="nav.team">Team</a>
+    </nav>
+    <div class="nav-right">
+      <div class="lang-switch" id="langSwitch">
+        <button data-lang="zh">中文</button>
+        <button data-lang="en">EN</button>
+        <button data-lang="vi">VI</button>
+      </div>
+      <a class="nav-cta" href="contact.html" data-i18n="nav.cta">Get a Quote</a>
+    </div>
+  </div>
+</header>
+
+<div class="wrap crumb"><a href="index.html" data-i18n="breadcrumb.home">&larr; Home</a></div>
+<section id="discounts" class="section-pad">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow" data-i18n="discounts.eyebrow">Discounts</div>
+      <h2 data-i18n="discounts.h2">Special rates, applied per booking</h2>
+      <p data-i18n="discounts.p">Each discount below applies on its own and cannot be combined with another.</p>
+    </div>
+    <div class="discount-grid">
+      <div class="discount-card">
+        <div class="pct">10%</div>
+        <h3 data-i18n="disc.1.title">Combining two or more cities</h3>
+        <p data-i18n="disc.1.desc">Travel between cities and receive an automatic 10% discount on your second city.</p>
+      </div>
+      <div class="discount-card">
+        <div class="pct">10%</div>
+        <h3 data-i18n="disc.2.title">Long stays</h3>
+        <p data-i18n="disc.2.desc">Stay four weeks or more and receive a 10% discount on your programme.</p>
+      </div>
+      <div class="discount-card">
+        <div class="pct" data-i18n="disc.3.pct">Group</div>
+        <h3 data-i18n="disc.3.title">Travelling together</h3>
+        <p data-i18n="disc.3.desc">Bring one or more companions and unlock special group rates on your booking.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap footer-grid">
+    <div>
+      <div class="footer-brand"><span class="mark" style="background:var(--jade);color:var(--paper);width:34px;height:34px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;font-size:15px;">浸</span>Lingoinn</div>
+      <p style="max-width:32ch;color:var(--ink-soft);font-size:14px;" data-i18n="footer.tagline">Lingoinn Limited · Registered in England &amp; Wales · Company No. 11002273</p>
+    </div>
+    <div class="footer-col">
+      <h4 data-i18n="footer.col1">Locations</h4>
+      <a href="#" data-i18n="footer.loc1">Beijing, China</a>
+      <a href="#" data-i18n="footer.loc2">Shanghai, China</a>
+      <a href="#" data-i18n="footer.loc3">Chengdu, China</a>
+      <a href="#" data-i18n="footer.loc4">Taichung, Taiwan</a>
+      <a href="#" data-i18n="footer.loc5">Singapore</a>
+    </div>
+    <div class="footer-col">
+      <h4 data-i18n="footer.col2">Programmes</h4>
+      <a href="index.html" data-i18n="footer.prog1">Full Immersion</a>
+      <a href="#" data-i18n="footer.prog2">Language Immersion</a>
+      <a href="#" data-i18n="footer.prog3">Business Immersion</a>
+      <a href="#" data-i18n="footer.prog4">Cultural Immersion</a>
+      <a href="#" data-i18n="footer.prog5">Travel Immersion</a>
+    </div>
+    <div class="footer-col">
+      <h4 data-i18n="footer.col3">Admission</h4>
+      <a href="#" data-i18n="footer.adm1">How To Apply</a>
+      <a href="#" data-i18n="footer.adm2">Payment Info</a>
+      <a href="#" data-i18n="footer.adm3">Scholarships &amp; Discounts</a>
+      <a href="#" data-i18n="footer.adm4">FAQ</a>
+      <a href="contact.html" data-i18n="footer.adm5">Apply Now</a>
+    </div>
+  </div>
+  <div class="footer-bottom" data-i18n="footer.bottom">Copyright © 2017–2026 Lingoinn Limited. All rights reserved.</div>
+</footer>
+
+<button id="backToTop" aria-label="Back to top" title="Back to top">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 19V5"></path>
+    <path d="M6 11l6-6 6 6"></path>
+  </svg>
+</button>
+
+<script src="assets/app.js"></script>
+</body>
+</html>
