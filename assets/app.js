@@ -1,4 +1,3 @@
-
 const translations = {
   en: {
     "nav.programme":"Programme","nav.upgrades":"Upgrades","nav.discounts":"Discounts","nav.stories":"Stories","nav.team":"Team","nav.cta":"Get a Quote",
@@ -58,7 +57,49 @@ const translations = {
     "footer.col1":"Locations","footer.loc1":"Beijing, China","footer.loc2":"Shanghai, China","footer.loc3":"Chengdu, China","footer.loc4":"Taichung, Taiwan","footer.loc5":"Singapore",
     "footer.col2":"Programmes","footer.prog1":"Full Immersion","footer.prog2":"Language Immersion","footer.prog3":"Business Immersion","footer.prog4":"Cultural Immersion","footer.prog5":"Travel Immersion",
     "footer.col3":"Admission","footer.adm1":"How To Apply","footer.adm2":"Payment Info","footer.adm3":"Scholarships & Discounts","footer.adm4":"FAQ","footer.adm5":"Apply Now",
-    "footer.bottom":"Copyright © 2017–2026 Lingoinn Limited. All rights reserved."
+    "footer.bottom":"Copyright © 2017–2026 Lingoinn Limited. All rights reserved.",
+
+    "loc.hero.eyebrow":"Language & Locations","loc.hero.h1":"Choose your immersion city",
+    "loc.hero.p":"Live with a host teacher in one of our carefully selected cities across China, Taiwan and Singapore.",
+    "loc.tab.china":"China","loc.tab.taiwan":"Taiwan","loc.tab.singapore":"Singapore",
+    "loc.count.china":"11 cities available","loc.count.taiwan":"7 cities available","loc.count.singapore":"City-state",
+    "loc.explore":"Explore","loc.close":"Close",
+    "loc.fact.see":"See","loc.fact.do":"Do","loc.fact.eat":"Eat",
+    "loc.cta.eyebrow":"Ready to choose?","loc.cta.h2":"Tell us your city preference and we'll match you with a teacher.",
+
+    "pg.eyebrow":"Programmes","pg.h2":"Five ways to immerse yourself",
+    "pg.p":"Every programme pairs private Mandarin lessons with a full week living at your teacher's home — choose the one that matches what you want to focus on.",
+    "pg.full.title":"Full Immersion","pg.full.desc":"Our most complete programme — private lessons, cultural activities and a day trip, all woven into one week with your teacher.","pg.full.tuition":"10h private tuition / week","pg.full.price":"US$794",
+    "pg.language.title":"Language Immersion","pg.language.desc":"An intensive Mandarin course with 15 hours a week of private lessons — choose General Chinese or focused HSK exam preparation.","pg.language.tuition":"15h private tuition / week","pg.language.price":"US$851",
+    "pg.business.title":"Business Immersion","pg.business.desc":"Built for professionals — learn the vocabulary and etiquette to work confidently with Chinese-speaking clients and colleagues.","pg.business.tuition":"10h private tuition / week","pg.business.price":"US$713",
+    "pg.cultural.title":"Cultural Immersion","pg.cultural.desc":"Mandarin lessons paired with two hands-on cultural activities — from traditional arts to cooking classes — chosen around your interests.","pg.cultural.tuition":"10h private tuition / week","pg.cultural.price":"US$824",
+    "pg.travel.title":"Travel Immersion","pg.travel.desc":"Lessons move outdoors with your teacher as your guide, plus a day trip to explore the city's history and hidden corners.","pg.travel.tuition":"10h private tuition / week","pg.travel.price":"US$693",
+    "pg.learnmore":"Learn more",
+    "pg.note":"All programmes include a week of comfortable homestay accommodation with breakfast included, and can be extended or combined with the upgrades and discounts below.",
+
+    "adm.eyebrow":"Admission","adm.h2":"How to apply, pay and get your questions answered",
+    "adm.p":"From your first enquiry to your first day at your teacher's home — here's exactly what to expect.",
+    "adm.step1.title":"Programme registration","adm.step1.desc":"Fill out the registration form with the details of your request.",
+    "adm.step2.title":"Programme proposal","adm.step2.desc":"Review and approve the tailored programme proposal we put together for you.",
+    "adm.step3.title":"Payment","adm.step3.desc":"Complete payment of the invoice according to our terms.",
+    "adm.step4.title":"Programme confirmation","adm.step4.desc":"Receive an email confirming your homestay details and your host teacher's contact information.",
+    "adm.step5.title":"Pre-departure orientation","adm.step5.desc":"Receive a learner information pack and personal support ahead of your departure.",
+    "adm.payment.h3":"Payment info",
+    "adm.pay1.title":"Invoice","adm.pay1.desc":"You'll receive an invoice detailing tuition fees and payment options.",
+    "adm.pay2.title":"Payment timeline","adm.pay2.desc":"Full payment is due within 48 hours of your programme confirmation email.",
+    "adm.pay3.title":"Payment options","adm.pay3.desc":"Pay by bank transfer, Wise, or your preferred method — additional charges may apply.",
+    "adm.pay4.title":"Confirmation of payment","adm.pay4.desc":"You'll get a confirmation email once your payment is received.",
+    "adm.pay5.title":"Extra service payment","adm.pay5.desc":"Adding lessons, activities or tours after enrolment? Contact us to arrange payment.",
+    "adm.pay6.title":"Cancellation & refund","adm.pay6.desc":"Cancellations and refunds are available — see our company policies for details.",
+    "adm.faq.h3":"Frequently asked questions",
+    "adm.faq1.q":"Who can apply?","adm.faq1.a":"Adult learners of any background and language level are welcome to apply.",
+    "adm.faq2.q":"Do I need prior knowledge of Chinese?","adm.faq2.a":"No — learners of all levels, including complete beginners, can join.",
+    "adm.faq3.q":"How long is the programme?","adm.faq3.a":"Anywhere from one to four weeks, or longer if you'd like to extend.",
+    "adm.faq4.q":"Can I combine two or more cities?","adm.faq4.a":"Yes — stay with host teachers in as many cities as you like, for as long as you like.",
+    "adm.faq5.q":"When do I arrive and have lessons?","adm.faq5.a":"Programmes start on Monday, so you'll arrive at your teacher's home the Saturday or Sunday before. Lessons run Monday to Friday at agreed times.",
+    "adm.faq6.q":"Do I need a visa, and will Lingoinn help?","adm.faq6.a":"Yes, a tourist visa is required for China; we advise on the application and provide an invitation letter.",
+    "adm.faq7.q":"Do I need health insurance?","adm.faq7.a":"Yes — international health insurance is strongly recommended, and we're happy to point you to options.",
+    "adm.faq.note":"Have a question about daily life once you arrive — voltage, tap water, ATMs? Get in touch and we'll walk you through it."
   },
   zh: {
     "nav.programme":"課程","nav.upgrades":"加購項目","nav.discounts":"優惠","nav.stories":"學員故事","nav.team":"師資團隊","nav.cta":"立即詢價",
@@ -118,7 +159,49 @@ const translations = {
     "footer.col1":"授課地點","footer.loc1":"北京，中國","footer.loc2":"上海，中國","footer.loc3":"成都，中國","footer.loc4":"台中，台灣","footer.loc5":"新加坡",
     "footer.col2":"課程項目","footer.prog1":"全浸式課程","footer.prog2":"語言浸式課程","footer.prog3":"商務浸式課程","footer.prog4":"文化浸式課程","footer.prog5":"旅遊浸式課程",
     "footer.col3":"入學申請","footer.adm1":"如何申請","footer.adm2":"付款資訊","footer.adm3":"獎學金與優惠","footer.adm4":"常見問題","footer.adm5":"立即申請",
-    "footer.bottom":"© 2017–2026 Lingoinn Limited．版權所有。"
+    "footer.bottom":"© 2017–2026 Lingoinn Limited．版權所有。",
+
+    "loc.hero.eyebrow":"語言與地點","loc.hero.h1":"選擇你的沉浸城市",
+    "loc.hero.p":"入住我們精選的中國、台灣與新加坡城市，與寄宿教師一同生活。",
+    "loc.tab.china":"中國","loc.tab.taiwan":"台灣","loc.tab.singapore":"新加坡",
+    "loc.count.china":"共 11 座城市","loc.count.taiwan":"共 7 座城市","loc.count.singapore":"城市國家",
+    "loc.explore":"探索","loc.close":"收合",
+    "loc.fact.see":"景點","loc.fact.do":"體驗","loc.fact.eat":"美食",
+    "loc.cta.eyebrow":"準備好了嗎？","loc.cta.h2":"告訴我們你偏好的城市，我們將為你配對合適的老師。",
+
+    "pg.eyebrow":"課程項目","pg.h2":"五種沉浸方式，任你選擇",
+    "pg.p":"每個課程都結合一對一普通話課程與整整一週入住教師家中的生活體驗——選擇最符合你目標的一種。",
+    "pg.full.title":"全浸式課程","pg.full.desc":"我們最完整的課程——私人課程、文化活動與一日遊，全部融入與教師同住的一週生活。","pg.full.tuition":"每週10小時一對一課程","pg.full.price":"US$794",
+    "pg.language.title":"語言浸式課程","pg.language.desc":"密集普通話課程，每週15小時一對一教學——可選一般華語或針對性HSK考試準備。","pg.language.tuition":"每週15小時一對一課程","pg.language.price":"US$851",
+    "pg.business.title":"商務浸式課程","pg.business.desc":"專為職場人士設計——學習與華語客戶、同事自信溝通所需的詞彙與商務禮儀。","pg.business.tuition":"每週10小時一對一課程","pg.business.price":"US$713",
+    "pg.cultural.title":"文化浸式課程","pg.cultural.desc":"普通話課程結合兩項動手體驗的文化活動——從傳統工藝到烹飪課，依你的興趣挑選。","pg.cultural.tuition":"每週10小時一對一課程","pg.cultural.price":"US$824",
+    "pg.travel.title":"旅遊浸式課程","pg.travel.desc":"課程走出教室，由老師親自帶路，再加上一日遊，探索城市的歷史與私房景點。","pg.travel.tuition":"每週10小時一對一課程","pg.travel.price":"US$693",
+    "pg.learnmore":"了解更多",
+    "pg.note":"所有課程皆包含一週舒適的寄宿住宿與早餐，並可依下方的加購與優惠方案延長或組合。",
+
+    "adm.eyebrow":"入學申請","adm.h2":"如何申請、付款與常見問題解答",
+    "adm.p":"從第一次詢問到抵達教師家中的第一天——這裡是完整流程說明。",
+    "adm.step1.title":"填寫報名表","adm.step1.desc":"填寫報名表並提供你的具體需求。",
+    "adm.step2.title":"課程提案","adm.step2.desc":"審閱並確認我們為你量身打造的課程提案。",
+    "adm.step3.title":"完成付款","adm.step3.desc":"依照條款完成帳單付款。",
+    "adm.step4.title":"課程確認","adm.step4.desc":"收到確認信，內含寄宿詳情與寄宿教師的聯絡方式。",
+    "adm.step5.title":"行前說明","adm.step5.desc":"出發前收到學員資訊手冊與專屬個人協助。",
+    "adm.payment.h3":"付款資訊",
+    "adm.pay1.title":"帳單","adm.pay1.desc":"我們會提供詳列學費與付款方式的帳單。",
+    "adm.pay2.title":"付款期限","adm.pay2.desc":"課程確認信寄出後48小時內須完成全額付款。",
+    "adm.pay3.title":"付款方式","adm.pay3.desc":"可透過銀行轉帳、Wise或其他偏好方式付款，可能產生額外手續費。",
+    "adm.pay4.title":"付款確認","adm.pay4.desc":"收到付款後，我們會寄送確認信。",
+    "adm.pay5.title":"加購項目付款","adm.pay5.desc":"報名後若欲加購課程、活動或行程，請聯繫我們安排付款。",
+    "adm.pay6.title":"取消與退款","adm.pay6.desc":"提供取消與退款服務，詳情請參閱我們的公司政策。",
+    "adm.faq.h3":"常見問題",
+    "adm.faq1.q":"誰可以報名？","adm.faq1.a":"歡迎任何背景、任何語言程度的成人學員報名。",
+    "adm.faq2.q":"是否需要先具備中文基礎？","adm.faq2.a":"不需要——歡迎各程度學員，包含完全初學者。",
+    "adm.faq3.q":"課程時間多長？","adm.faq3.a":"可從一週到四週，若想延長也可以再加長。",
+    "adm.faq4.q":"可以組合多個城市嗎？","adm.faq4.a":"可以——你可以入住任意數量的城市，停留時間也由你決定。",
+    "adm.faq5.q":"何時抵達、何時上課？","adm.faq5.a":"課程皆於週一開始，你需於前一個週六或週日抵達教師家中；課程安排在週一至週五的約定時段。",
+    "adm.faq6.q":"需要簽證嗎？Lingoinn會協助嗎？","adm.faq6.a":"前往中國需辦理旅遊簽證；我們會提供申請建議並開立邀請函協助辦理。",
+    "adm.faq7.q":"需要買醫療保險嗎？","adm.faq7.a":"強烈建議投保國際醫療保險，我們也樂於提供保險建議。",
+    "adm.faq.note":"想了解抵達後的日常生活資訊——如電壓、飲用水、ATM？歡迎與我們聯繫，我們會為你詳細說明。"
   },
   vi: {
     "nav.programme":"Chương trình","nav.upgrades":"Nâng cấp","nav.discounts":"Ưu đãi","nav.stories":"Câu chuyện","nav.team":"Đội ngũ","nav.cta":"Nhận báo giá",
@@ -178,10 +261,53 @@ const translations = {
     "footer.col1":"Địa điểm","footer.loc1":"Bắc Kinh, Trung Quốc","footer.loc2":"Thượng Hải, Trung Quốc","footer.loc3":"Thành Đô, Trung Quốc","footer.loc4":"Đài Trung, Đài Loan","footer.loc5":"Singapore",
     "footer.col2":"Chương trình","footer.prog1":"Hòa mình trọn vẹn","footer.prog2":"Hòa mình ngôn ngữ","footer.prog3":"Hòa mình thương mại","footer.prog4":"Hòa mình văn hóa","footer.prog5":"Hòa mình du lịch",
     "footer.col3":"Nhập học","footer.adm1":"Cách đăng ký","footer.adm2":"Thông tin thanh toán","footer.adm3":"Học bổng & Ưu đãi","footer.adm4":"Câu hỏi thường gặp","footer.adm5":"Đăng ký ngay",
-    "footer.bottom":"© 2017–2026 Lingoinn Limited. Bảo lưu mọi quyền."
+    "footer.bottom":"© 2017–2026 Lingoinn Limited. Bảo lưu mọi quyền.",
+
+    "loc.hero.eyebrow":"Ngôn ngữ & Địa điểm","loc.hero.h1":"Chọn thành phố hòa mình của bạn",
+    "loc.hero.p":"Sống cùng giáo viên bản xứ tại một trong những thành phố được chúng tôi tuyển chọn kỹ lưỡng ở Trung Quốc, Đài Loan và Singapore.",
+    "loc.tab.china":"Trung Quốc","loc.tab.taiwan":"Đài Loan","loc.tab.singapore":"Singapore",
+    "loc.count.china":"11 thành phố","loc.count.taiwan":"7 thành phố","loc.count.singapore":"Quốc đảo",
+    "loc.explore":"Khám phá","loc.close":"Thu gọn",
+    "loc.fact.see":"Tham quan","loc.fact.do":"Trải nghiệm","loc.fact.eat":"Ẩm thực",
+    "loc.cta.eyebrow":"Sẵn sàng chọn chưa?","loc.cta.h2":"Cho chúng tôi biết thành phố bạn muốn, chúng tôi sẽ ghép bạn với giáo viên phù hợp.",
+
+    "pg.eyebrow":"Chương trình","pg.h2":"Năm cách để hòa mình trọn vẹn",
+    "pg.p":"Mỗi chương trình đều kết hợp học tiếng Trung riêng với một tuần sống tại nhà giáo viên — chọn chương trình phù hợp nhất với mục tiêu của bạn.",
+    "pg.full.title":"Hòa mình trọn vẹn","pg.full.desc":"Chương trình đầy đủ nhất của chúng tôi — học riêng, hoạt động văn hóa và một chuyến tham quan, tất cả gói gọn trong một tuần cùng giáo viên.","pg.full.tuition":"10 giờ học riêng/tuần","pg.full.price":"794 USD",
+    "pg.language.title":"Hòa mình ngôn ngữ","pg.language.desc":"Khóa tiếng Trung chuyên sâu với 15 giờ học riêng mỗi tuần — chọn tiếng Trung phổ thông hoặc luyện thi HSK.","pg.language.tuition":"15 giờ học riêng/tuần","pg.language.price":"851 USD",
+    "pg.business.title":"Hòa mình thương mại","pg.business.desc":"Dành cho người đi làm — học từ vựng và phép tắc giao tiếp để tự tin làm việc với đối tác, khách hàng nói tiếng Trung.","pg.business.tuition":"10 giờ học riêng/tuần","pg.business.price":"713 USD",
+    "pg.cultural.title":"Hòa mình văn hóa","pg.cultural.desc":"Học tiếng Trung kết hợp hai hoạt động văn hóa thực hành — từ nghệ thuật truyền thống đến lớp nấu ăn, chọn theo sở thích của bạn.","pg.cultural.tuition":"10 giờ học riêng/tuần","pg.cultural.price":"824 USD",
+    "pg.travel.title":"Hòa mình du lịch","pg.travel.desc":"Giờ học chuyển ra ngoài trời cùng giáo viên dẫn đường, cộng thêm một chuyến tham quan khám phá lịch sử và những góc phố ít người biết.","pg.travel.tuition":"10 giờ học riêng/tuần","pg.travel.price":"693 USD",
+    "pg.learnmore":"Tìm hiểu thêm",
+    "pg.note":"Tất cả chương trình đều bao gồm một tuần lưu trú thoải mái kèm bữa sáng, và có thể kéo dài hoặc kết hợp với các gói nâng cấp, ưu đãi bên dưới.",
+
+    "adm.eyebrow":"Nhập học","adm.h2":"Cách đăng ký, thanh toán và giải đáp thắc mắc",
+    "adm.p":"Từ lần liên hệ đầu tiên đến ngày đầu tiên tại nhà giáo viên — đây là toàn bộ quy trình.",
+    "adm.step1.title":"Đăng ký chương trình","adm.step1.desc":"Điền vào mẫu đăng ký và cho chúng tôi biết yêu cầu cụ thể của bạn.",
+    "adm.step2.title":"Đề xuất chương trình","adm.step2.desc":"Xem xét và duyệt đề xuất chương trình được thiết kế riêng cho bạn.",
+    "adm.step3.title":"Thanh toán","adm.step3.desc":"Hoàn tất thanh toán hóa đơn theo điều khoản của chúng tôi.",
+    "adm.step4.title":"Xác nhận chương trình","adm.step4.desc":"Nhận email xác nhận với thông tin homestay và liên hệ của giáo viên.",
+    "adm.step5.title":"Định hướng trước khi đi","adm.step5.desc":"Nhận tài liệu thông tin học viên và hỗ trợ cá nhân trước ngày khởi hành.",
+    "adm.payment.h3":"Thông tin thanh toán",
+    "adm.pay1.title":"Hóa đơn","adm.pay1.desc":"Bạn sẽ nhận hóa đơn chi tiết học phí và các phương thức thanh toán.",
+    "adm.pay2.title":"Thời hạn thanh toán","adm.pay2.desc":"Cần thanh toán đầy đủ trong vòng 48 giờ kể từ email xác nhận chương trình.",
+    "adm.pay3.title":"Phương thức thanh toán","adm.pay3.desc":"Thanh toán qua chuyển khoản ngân hàng, Wise hoặc phương thức bạn muốn — có thể phát sinh phí phụ.",
+    "adm.pay4.title":"Xác nhận thanh toán","adm.pay4.desc":"Bạn sẽ nhận email xác nhận ngay khi chúng tôi nhận được khoản thanh toán.",
+    "adm.pay5.title":"Thanh toán dịch vụ thêm","adm.pay5.desc":"Muốn thêm giờ học, hoạt động hoặc chuyến tham quan sau khi đăng ký? Liên hệ để sắp xếp thanh toán.",
+    "adm.pay6.title":"Hủy & hoàn tiền","adm.pay6.desc":"Có hỗ trợ hủy và hoàn tiền — xem chi tiết trong chính sách công ty của chúng tôi.",
+    "adm.faq.h3":"Câu hỏi thường gặp",
+    "adm.faq1.q":"Ai có thể đăng ký?","adm.faq1.a":"Mọi học viên trưởng thành, không phân biệt trình độ hay xuất thân, đều có thể đăng ký.",
+    "adm.faq2.q":"Tôi có cần biết tiếng Trung trước không?","adm.faq2.a":"Không cần — học viên ở mọi trình độ, kể cả người mới bắt đầu, đều được chào đón.",
+    "adm.faq3.q":"Chương trình kéo dài bao lâu?","adm.faq3.a":"Từ một đến bốn tuần, hoặc lâu hơn nếu bạn muốn kéo dài thêm.",
+    "adm.faq4.q":"Tôi có thể kết hợp nhiều thành phố không?","adm.faq4.a":"Có — bạn có thể ở cùng giáo viên tại bất kỳ số thành phố nào, trong khoảng thời gian bạn muốn.",
+    "adm.faq5.q":"Khi nào tôi đến và học?","adm.faq5.a":"Chương trình luôn bắt đầu vào thứ Hai, nên bạn sẽ đến nhà giáo viên vào thứ Bảy hoặc Chủ nhật trước đó. Giờ học diễn ra từ thứ Hai đến thứ Sáu theo khung giờ đã thống nhất.",
+    "adm.faq6.q":"Tôi có cần visa không? Lingoinn có hỗ trợ không?","adm.faq6.a":"Cần visa du lịch khi đến Trung Quốc; chúng tôi sẽ tư vấn hồ sơ và cấp thư mời để việc xin visa thuận lợi hơn.",
+    "adm.faq7.q":"Tôi có cần bảo hiểm y tế không?","adm.faq7.a":"Có — rất khuyến khích mua bảo hiểm y tế quốc tế, và chúng tôi sẵn sàng gợi ý các lựa chọn phù hợp.",
+    "adm.faq.note":"Muốn biết thêm về đời sống hàng ngày sau khi đến nơi — điện áp, nước uống, ATM? Hãy liên hệ, chúng tôi sẽ giải thích chi tiết cho bạn."
   }
 };
 
+window.translations = translations;
 let currentLang = 'vi';
 
 const teachers = [
@@ -224,6 +350,7 @@ function renderTeachers(lang){
 
 function applyLang(lang){
   currentLang = lang;
+  localStorage.setItem('lingoinn_lang', lang);
   const dict = translations[lang];
   document.querySelectorAll('[data-i18n]').forEach(el=>{
     const key = el.getAttribute('data-i18n');
@@ -242,13 +369,17 @@ function applyLang(lang){
     b.classList.toggle('active', b.getAttribute('data-lang') === lang);
   });
   renderTeachers(lang);
+  document.dispatchEvent(new CustomEvent('lingoinn:langchange', {detail:{lang:lang}}));
 }
+
+window.getLingoinnLang = function(){ return currentLang; };
 
 document.querySelectorAll('#langSwitch button').forEach(btn=>{
   btn.addEventListener('click', ()=> applyLang(btn.getAttribute('data-lang')));
 });
 
-applyLang('vi');
+const savedLang = localStorage.getItem('lingoinn_lang') || 'vi';
+applyLang(savedLang);
 
 const backToTop = document.getElementById('backToTop');
 window.addEventListener('scroll', ()=>{

@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Admission — Lingoinn</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;600;700&family=Noto+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="assets/contact-widget.css">
+<style>
+  .adm-block{scroll-margin-top:90px;margin-bottom:80px;}
+  .adm-block:last-child{margin-bottom:0;}
+  .adm-subhead{margin-bottom:36px;max-width:640px;}
+  .adm-subhead h3{font-size:clamp(20px,2.8vw,28px);font-weight:700;}
+  .steps{display:grid;grid-template-columns:repeat(5,1fr);gap:1px;background:var(--line);border:1px solid var(--line);}
+  @media(max-width:980px){.steps{grid-template-columns:repeat(2,1fr);}}
+  @media(max-width:560px){.steps{grid-template-columns:1fr;}}
+  .step{background:var(--card);padding:26px 22px;display:flex;flex-direction:column;gap:10px;}
+  .step-num{font-family:'Noto Serif TC',serif;font-size:13px;color:var(--seal);font-weight:700;}
+  .step h4{font-size:15.5px;font-weight:700;}
+  .step p{font-size:13.5px;color:var(--ink-soft);margin:0;}
+  .pay-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px;}
+  @media(max-width:700px){.pay-grid{grid-template-columns:1fr;}}
+  .pay-item{border-bottom:1px solid var(--line);padding-bottom:18px;}
+  .pay-item h4{font-size:15px;font-weight:700;color:var(--jade);}
+  .pay-item p{font-size:14px;color:var(--ink-soft);margin:6px 0 0;}
+  .faq-list{max-width:820px;}
+  .faq-item{border-bottom:1px solid var(--line);}
+  .faq-item:first-child{border-top:1px solid var(--line);}
+  .faq-q{width:100%;background:none;border:none;cursor:pointer;text-align:left;padding:18px 4px;display:flex;justify-content:space-between;align-items:center;gap:16px;font-family:'Noto Serif TC',serif;font-size:15.5px;font-weight:600;color:var(--ink);}
+  .faq-plus{width:20px;height:20px;flex-shrink:0;position:relative;}
+  .faq-plus::before,.faq-plus::after{content:"";position:absolute;background:var(--ink);}
+  .faq-plus::before{left:0;top:50%;width:100%;height:1.5px;transform:translateY(-50%);}
+  .faq-plus::after{top:0;left:50%;height:100%;width:1.5px;transform:translateX(-50%);transition:transform .25s ease;}
+  .faq-item.open .faq-plus::after{transform:translateX(-50%) rotate(90deg);opacity:0;}
+  .faq-a{max-height:0;overflow:hidden;transition:max-height .28s ease;}
+  .faq-a p{padding:0 4px 20px;color:var(--ink-soft);font-size:14px;max-width:64ch;margin:0;}
+  .adm-faq-note{margin-top:28px;font-size:13px;color:var(--ink-soft);max-width:70ch;}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="index.html"><span class="mark">浸</span> Lingoinn</a>
+    <nav class="nav-links">
+      <a href="index.html" data-i18n="nav.programme">Programme</a>
+      <a href="upgrades.html" data-i18n="nav.upgrades">Upgrades</a>
+      <a href="discounts.html" data-i18n="nav.discounts">Discounts</a>
+      <a href="stories.html" data-i18n="nav.stories">Stories</a>
+      <a href="team.html" data-i18n="nav.team">Team</a>
+    </nav>
+    <div class="nav-right">
+      <div class="lang-switch" id="langSwitch">
+        <button data-lang="zh">中文</button>
+        <button data-lang="en">EN</button>
+        <button data-lang="vi">VI</button>
+      </div>
+      <a class="nav-cta" href="contact.html" data-i18n="nav.cta">Get a Quote</a>
+    </div>
+  </div>
+</header>
+
+<div class="wrap crumb"><a href="index.html" data-i18n="breadcrumb.home">← Home</a></div>
+
+<section class="section-pad">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow" data-i18n="adm.eyebrow">Admission</div>
+      <h2 data-i18n="adm.h2">How to apply, pay and get your questions answered</h2>
+      <p data-i18n="adm.p">From your first enquiry to your first day at your teacher's home — here's exactly what to expect.</p>
+    </div>
+
+    <!-- How to apply -->
+    <div class="adm-block" id="apply">
+      <div class="adm-subhead"><h3 data-i18n="footer.adm1">How To Apply</h3></div>
+      <div class="steps">
+        <div class="step"><div class="step-num">01</div><h4 data-i18n="adm.step1.title">Programme registration</h4><p data-i18n="adm.step1.desc">Fill out the registration form with the details of your request.</p></div>
+        <div class="step"><div class="step-num">02</div><h4 data-i18n="adm.step2.title">Programme proposal</h4><p data-i18n="adm.step2.desc">Review and approve the tailored programme proposal we put together for you.</p></div>
+        <div class="step"><div class="step-num">03</div><h4 data-i18n="adm.step3.title">Payment</h4><p data-i18n="adm.step3.desc">Complete payment of the invoice according to our terms.</p></div>
+        <div class="step"><div class="step-num">04</div><h4 data-i18n="adm.step4.title">Programme confirmation</h4><p data-i18n="adm.step4.desc">Receive an email confirming your homestay details and your host teacher's contact information.</p></div>
+        <div class="step"><div class="step-num">05</div><h4 data-i18n="adm.step5.title">Pre-departure orientation</h4><p data-i18n="adm.step5.desc">Receive a learner information pack and personal support ahead of your departure.</p></div>
+      </div>
+    </div>
+
+    <!-- Payment info -->
+    <div class="adm-block" id="payment">
+      <div class="adm-subhead"><h3 data-i18n="adm.payment.h3">Payment info</h3></div>
+      <div class="pay-grid">
+        <div class="pay-item"><h4 data-i18n="adm.pay1.title">Invoice</h4><p data-i18n="adm.pay1.desc">You'll receive an invoice detailing tuition fees and payment options.</p></div>
+        <div class="pay-item"><h4 data-i18n="adm.pay2.title">Payment timeline</h4><p data-i18n="adm.pay2.desc">Full payment is due within 48 hours of your programme confirmation email.</p></div>
+        <div class="pay-item"><h4 data-i18n="adm.pay3.title">Payment options</h4><p data-i18n="adm.pay3.desc">Pay by bank transfer, Wise, or your preferred method — additional charges may apply.</p></div>
+        <div class="pay-item"><h4 data-i18n="adm.pay4.title">Confirmation of payment</h4><p data-i18n="adm.pay4.desc">You'll get a confirmation email once your payment is received.</p></div>
+        <div class="pay-item"><h4 data-i18n="adm.pay5.title">Extra service payment</h4><p data-i18n="adm.pay5.desc">Adding lessons, activities or tours after enrolment? Contact us to arrange payment.</p></div>
+        <div class="pay-item"><h4 data-i18n="adm.pay6.title">Cancellation &amp; refund</h4><p data-i18n="adm.pay6.desc">Cancellations and refunds are available — see our company policies for details.</p></div>
+      </div>
+    </div>
+
+    <!-- FAQ -->
+    <div class="adm-block" id="faq">
+      <div class="adm-subhead"><h3 data-i18n="adm.faq.h3">Frequently asked questions</h3></div>
+      <div class="faq-list" id="faqAccordion">
+        <div class="faq-item open">
+          <button class="faq-q"><span data-i18n="adm.faq1.q">Who can apply?</span><span class="faq-plus"></span></button>
+          <div class="faq-a" style="max-height:120px;"><p data-i18n="adm.faq1.a">Adult learners of any background and language level are welcome to apply.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q"><span data-i18n="adm.faq2.q">Do I need prior knowledge of Chinese?</span><span class="faq-plus"></span></button>
+          <div class="faq-a"><p data-i18n="adm.faq2.a">No — learners of all levels, including complete beginners, can join.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q"><span data-i18n="adm.faq3.q">How long is the programme?</span><span class="faq-plus"></span></button>
+          <div class="faq-a"><p data-i18n="adm.faq3.a">Anywhere from one to four weeks, or longer if you'd like to extend.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q"><span data-i18n="adm.faq4.q">Can I combine two or more cities?</span><span class="faq-plus"></span></button>
+          <div class="faq-a"><p data-i18n="adm.faq4.a">Yes — stay with host teachers in as many cities as you like, for as long as you like.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q"><span data-i18n="adm.faq5.q">When do I arrive and have lessons?</span><span class="faq-plus"></span></button>
+          <div class="faq-a"><p data-i18n="adm.faq5.a">Programmes start on Monday, so you'll arrive at your teacher's home the Saturday or Sunday before. Lessons run Monday to Friday at agreed times.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q"><span data-i18n="adm.faq6.q">Do I need a visa, and will Lingoinn help?</span><span class="faq-plus"></span></button>
+          <div class="faq-a"><p data-i18n="adm.faq6.a">Yes, a tourist visa is required for China; we advise on the application and provide an invitation letter.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q"><span data-i18n="adm.faq7.q">Do I need health insurance?</span><span class="faq-plus"></span></button>
+          <div class="faq-a"><p data-i18n="adm.faq7.a">Yes — international health insurance is strongly recommended, and we're happy to point you to options.</p></div>
+        </div>
+      </div>
+      <p class="adm-faq-note" data-i18n="adm.faq.note">Have a question about daily life once you arrive — voltage, tap water, ATMs? Get in touch and we'll walk you through it.</p>
+    </div>
+
+  </div>
+</section>
+
+<section class="cta-band" id="quote">
+  <div class="wrap cta-inner">
+    <h2 data-i18n="cta.h2">Not sure which programme fits? Talk it through with us first.</h2>
+    <div class="price-block">
+      <div>
+        <div class="figure"><small data-i18n="cta.from">From</small> US$693</div>
+        <div class="reg" data-i18n="cta.reg">+ US$80 registration fee</div>
+      </div>
+      <a class="btn-primary" href="contact.html" data-i18n="cta.btn">Get a Quote</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap footer-grid">
+    <div>
+      <div class="footer-brand"><span class="mark" style="background:var(--jade);color:var(--paper);width:34px;height:34px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;font-size:15px;">浸</span>Lingoinn</div>
+      <p style="max-width:32ch;color:var(--ink-soft);font-size:14px;" data-i18n="footer.tagline">Hoang Xuan Tuan · Vietnam · Company No. 123456</p>
+    </div>
+
+    <div class="footer-col">
+      <h4 data-i18n="footer.col1">Locations</h4>
+      <div class="footer-loc-group">
+        <span class="footer-loc-label">China</span>
+        <a href="locations.html#loc-china">Beijing</a>
+        <a href="locations.html#loc-china">Shanghai</a>
+        <a href="locations.html#loc-china">Chengdu</a>
+        <a href="locations.html#loc-china">+ 8 more cities</a>
+      </div>
+      <div class="footer-loc-group">
+        <span class="footer-loc-label">Taiwan</span>
+        <a href="locations.html#loc-taiwan">Taichung</a>
+        <a href="locations.html#loc-taiwan">New Taipei City</a>
+        <a href="locations.html#loc-taiwan">+ 5 more cities</a>
+      </div>
+      <div class="footer-loc-group">
+        <span class="footer-loc-label">Singapore</span>
+        <a href="locations.html#loc-singapore">Singapore</a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h4 data-i18n="footer.col2">Programmes</h4>
+      <a href="programmes.html" data-i18n="footer.prog1">Full Immersion</a>
+      <a href="programmes.html#language" data-i18n="footer.prog2">Language Immersion</a>
+      <a href="programmes.html#business" data-i18n="footer.prog3">Business Immersion</a>
+      <a href="programmes.html#cultural" data-i18n="footer.prog4">Cultural Immersion</a>
+      <a href="programmes.html#travel" data-i18n="footer.prog5">Travel Immersion</a>
+    </div>
+
+    <div class="footer-col">
+      <h4 data-i18n="footer.col3">Admission</h4>
+      <a href="admission.html#apply" data-i18n="footer.adm1">How To Apply</a>
+      <a href="admission.html#payment" data-i18n="footer.adm2">Payment Info</a>
+      <a href="discounts.html" data-i18n="footer.adm3">Scholarships &amp; Discounts</a>
+      <a href="admission.html#faq" data-i18n="footer.adm4">FAQ</a>
+      <a href="contact.html" data-i18n="footer.adm5">Apply Now</a>
+    </div>
+  </div>
+  <div class="footer-bottom" data-i18n="footer.bottom">Copyright © 2026</div>
+</footer>
+
+<button id="backToTop" aria-label="Back to top" title="Back to top">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 19V5"></path>
+    <path d="M6 11l6-6 6 6"></path>
+  </svg>
+</button>
+
+<script src="assets/app.js"></script>
+<script src="assets/contact-widget.js"></script>
+<script>
+  document.querySelectorAll('.faq-item').forEach(function(item){
+    var btn = item.querySelector('.faq-q');
+    var panel = item.querySelector('.faq-a');
+    btn.addEventListener('click', function(){
+      var isOpen = item.classList.contains('open');
+      document.querySelectorAll('.faq-item.open').forEach(function(o){
+        o.classList.remove('open');
+        o.querySelector('.faq-a').style.maxHeight = null;
+      });
+      if(!isOpen){
+        item.classList.add('open');
+        panel.style.maxHeight = panel.scrollHeight + 'px';
+      }
+    });
+  });
+</script>
+</body>
+</html>
